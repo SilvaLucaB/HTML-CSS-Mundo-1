@@ -1,0 +1,107 @@
+* Aulas 1 e 2 *
+  Listas em HTML 
+
+<!-- CAPÍTULO 9 -->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas.cap.9</title>
+    <style>
+        h2 {
+            color: deeppink;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> Listas em HTML </h1>
+    <h2> AULA 1, listas OL e UL.</h2>
+    <h3> Listas Ordenadas</h3>
+    <p>São aquelas onde a ordem dos itens é algo importante. Como em um passo-a-passo para <br>
+        criar um bolo, uma lista de motos mais caras do mundo, e etc. <br>
+        Para utiliza-las, aplicar a tag OL + LI. Veja no exemplo abaixo uma lista ORDENADA: <br>
+    <ol>
+        <li>Acordar</li>
+        <li>Escovar os Dentes</li>
+        <li>Preparar o café</li>
+        <li>Tomar café </li>
+        <li>Lavar a louça</li> <!-- Os números entram automaticamente-->
+    </ol> <br>
+    É possível alterar o TIPO de definição dessa lista, basta abrir a classe TYPE dentro do OL. <br>
+    Exemplo dessa mesma lista com um tipo de diferente de definição: <br>
+    <ol type="I"> <!-- os tipos = 1 A a I i-->
+        <li>Acordar</li>
+        <li>Escovar os Dentes</li>
+        <li>Preparar o café</li>
+        <li>Tomar café </li>
+        <li>Lavar a louça</li> <!--Tipo Números romanos-->
+    </ol>
+    É possível alterar o valor inicial dessa lista, basta abrir a classe TYPE +
+    START e definir o valor desejado dentro do OL. <br>
+    Exemplo dessa mesma lista começando com o número 5: <br>
+    <!-- ATENÇÃO: O "START" É UM PARÂMETRO NUMÉRICO!!! Se caso o objetivo seja começar
+     na letra D por exemplo, colocar o número 4 (A = 1, B = 2...)-->
+    <ol type="" start="5">
+        <li>Acordar</li>
+        <li>Escovar os Dentes</li>
+        <li>Preparar o café</li>
+        <li>Tomar café </li>
+        <li>Lavar a louça</li>
+    </ol>
+    </p> <!--Nas OL temos, os "types" 1 A a I i -->
+    <h3> Listas Não Ordenadas</h3>
+    <p>Essas são indiferentes quanto sua ordem. Usar a tag UL: </p>
+    <ul>
+        <li>Comprar pão</li>
+        <li>Comprar tomate</li>
+        <li>Comprar leite</li>
+        <li>Comprar manteiga</li>
+        <li>Comprar banana</li> <!--TYPE aqui já vem padrao o DISK-->
+    </ul> <br>
+    Como nas listas ordenadas, aqui também é possível alterar o seu TYPE, exemplo: <br>
+    <br> Type <strong> circle </strong>:
+    <ul type="circle">
+        <li>Comprar pão</li>
+        <li>Comprar tomate</li>
+        <li>Comprar leite</li>
+        <li>Comprar manteiga</li>
+        <li>Comprar banana</li> <!--CIRCLE-->
+    </ul> <br>
+    <br> Type <strong> square </strong>:
+    <ul type="square">
+        <li>Comprar pão</li>
+        <li>Comprar tomate</li>
+        <li>Comprar leite</li>
+        <li>Comprar manteiga</li>
+        <li>Comprar banana</li> <!--SQUARE-->
+    </ul> <br> <!--Nas UL temos, os "types" disc, circle e square -->
+    <h2> AULA 2, listas mistas e de definição.</h2>
+    <h3> Misturando listas</h3>
+    <p>Jogos que eu mais joguei em cada plataforma: <br>
+    <ol> <!--LISTA PRINCIPAL-->
+        <li>PS2</li>
+        <ul>
+            <li>Grand Theft Auto San Andreas</li> <!-- Lista dentro da lista PRINCIPAL-->
+        </ul>
+        <li> PC </li>
+        <ul>
+            <li> Transformice </li>
+        </ul>
+        <li> Celular</li>
+        <ul>
+            <li> Clash Royale</li>
+        </ul>
+    </ol>
+    </p>
+    <h3> Listas de Definição </h3>
+    <p> Usar a tag DL Termo(dt) e descrição(dd), exemplo: </p>
+    <dl>
+        <dt> HTML</dt> <!--Termo-->
+        <dd>Linguagem de Marcação de Texto para criar um site.</dd> <!--Descrição-->
+    </dl>
+</body>
+
+</html>
