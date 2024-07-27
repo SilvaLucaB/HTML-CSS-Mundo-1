@@ -1,0 +1,43 @@
+* Favicon *
+  <!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- Adicionando o Favicon com a tag LINK FAVICON-->
+    <link rel="shortcut icon" href="favicon1.ico" type="image/x-icon">
+    <title>Capítulo.6</title>
+</head>
+
+<body>
+    <!--  Nas aulas 4 e 5 existem explicações de como aplicar uma imagem no site e 
+  alterar o FAVICON do mesmo... *FAVICON = ícone superior lado esquerdo que fica 
+  ao lado do title -->
+</body>
+<h1> Adicionando imagens ao meu site 👇🏽</h1>
+<p> Usar a tag " I M G" </p>
+<img src="paisagemfulloriginal.jfif" alt=""> <!-- Usar CTRL + espaço para selecionar a imagem desejada-->
+<br> Utilizar imagens com pouco espaço de armazenamento para evitar lentidões no site.No GIMP: <br>(imagem
++ redimensionar imagem + mudar largura + resolução máxima de 75). <br>
+<br> Imagens PNG são utilizadas quando queremos uma transparência da mesma no programa.... Como
+por exemplo uma imagem de fundo no site.
+<h2> FAVICON 🔵</h2>
+<!-- Mais compatível usar no formato ICO (da pra mudar no GIMP)-->
+Modelos prontos para utilizar no site: <button> <a href="https://www.iconarchive.com/">ICON ARQUIVE</a>
+</button> <br>
+<br> Mais opções de ícone:
+<button> <a href="https://favicon.io/"> FAVICON IO</a></button> <br>
+<br> Desenhar meu próprio ícone: <button> <a href="https://www.favicon.cc/">FAVICON CC</a>
+</button>
+<br>
+<p> O Favicon escolhido é "M1" representando que estou no Mundo 1 de aprendizado
+    de HTML!!😆 </p>
+<img src="exemplofavicon.jpg" alt=""> <br>
+<!-- Para adicionar um parágrafo de exemplo digitar Lorem -->
+<strong><br> Exemplo de parágrafo imaginário: * lo rem* : <br> </strong>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos veritatis suscipit, repudiandae deleniti minus
+nobis eum tenetur at hic voluptatum excepturi, quod sint numquam velit magni molestiae vitae inventore perferendis.
+
+</html>
