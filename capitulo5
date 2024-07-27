@@ -1,0 +1,35 @@
+* AULA 2 *
+
+  <!-- Símbolos e Emoji -->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título da página</title>
+</head>
+
+<body>
+    <h1> Capitulo 5 aula 2 </h1>
+    <h3> Símbolos e Emoji </h3>
+    <hr>
+    <p> Você pode escrever qualquer coisa aqui, e para quebrar <br> a linha usar a tag <strong> &lt;br &gt; . </p>
+    </strong><br>
+    <p> Para escrever "maior que", ou, "menor que" (como mostra no exemplo a seguir)
+        &rightarrowtail;<!-- seta pra direita--> &lt;Texto de
+        exemplo&gt;, usar LESS THAN (& + lt) e GREATER THAN (& + gt)</p>
+    <!-- &lt; (less than) = MENOR QUE /// &gt; (greater than) = MAIOR QUE -->
+
+    <h2> AULA DE HOJE COMEÇA LOGO ABAIXO &downarrow; <!-- DOWN é a setinha--> </h2>
+    <p> Adicionar emoji : <br>
+        <!-- Entrar na emojipedia, 
+    escolher o emoji, clicar, copiar e colar aqui-->
+        🚀😝✌🏽
+        <br> (Entrar no emojipedia + escolher emoji, copiar e colar aqui e pronto 🔥)
+    </p>
+    <hr>
+    <h4> Utilizando imagens "sem direitos autorais" do google </h4>
+    <p> Sites para pegar imagens grátis: UNSPLASH, PEXELS (ambos estão na barra de favoritos). </p> <br>
+    <p> *FIM DA AULA 1 CAPÍTULO 6 </p>
+</html>
