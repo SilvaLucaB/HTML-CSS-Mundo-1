@@ -1,0 +1,119 @@
+* Aulas 1,2,3 e 4 * 
+
+  <!-- CAPÍTULO 8 -->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags.cap.8</title>
+    <style>
+        h2 {
+            color: cornflowerblue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> Semantica da HTML 5</h1> <!--O significado  de algo,  tem MAIS VALO o que é, 
+    independente da sua forma! -->
+    <h2> AULA 1, sentido do HTML.</h2>
+    <h3> TAG de Endereço</h3>
+    <p> Tag para endereço <strong> ADDRESS....</strong>
+        Ele mora na:
+    <address> Rua Talarico Ribeiro, 188.</address> <!-- Fica meio tortinha as letras-->
+    </p>
+    <h2> AULA 2, formatação de textos. </h2>
+    <h3> Negrito e Itálico </h3>
+    <p> Nessa frase temos um <strong> elemento</strong> escrito em negrito pela tag STRONG. <br>
+        Nessa outra frase temos um termo em <em>itálico</em> usando a tag EM</p>
+    <h2> AULA 3, formatações adicionais.</h2>
+    <h3> Marcador de Texto</h3>
+    <p> Podemos criar um <mark style="background-color: lime;">texto marcado</mark> com a tag MARK. Para mudar a cor
+        desse
+        fundo,<br> se for de forma unitária abrir a tag style+background-color e escolher a cor desejada <br>
+        Se quiser selecionar mais que um marquee usar CSS no HEAD abrindo STYLE + <br>
+        classe MARK { background-color}.
+        <!-- HEAD - STYLE - BACKGROUND-COLOR- BLUE -->
+        <!--Igual fiz com os "H2" dessa página-->
+    </p>
+    <h3> Texto Deletado</h3>
+    <p>Podemos <del>ter um texto excluido</del> para definir que o mesmo pode ser lido mas não considerado.
+    </p>
+    <!--TAG DEL-->
+    <h3> Texto Inserido</h3>
+    <p>Podemos ter <ins>texto iserido para dar enfase</ins> ao mesmo e indicar que ele foi adicionado depois.</p>
+    <!-- TAG INS -->
+    <h3> Texto Sobescrito</h3>
+    <p>Para escrever coisas do tipo x<sup>2</sup>+3= ?</p> <!--O 'ao quadrado'-->
+    <!--TAG SUP-->
+    <h3>Texto Subscrito</h3>
+    <p>Coisa do tipo H<sub>2</sub>0</p> <!--O '2'-->
+    <!--TAG SUB-->
+    <h2> Aula 4, citações e códigos</h2>
+    <h3>Código-Fonte</h3>
+    <p>O comando document.getElementById('teste') é escrito em JavaScript (sem tag) <br>
+        O comando <code>document.getElementById('teste')</code> é escrito em JavaScript (com a tag code) <br>
+        a tag torna as letras monoespaçadas (mesmo espaço para todas as
+        letras...melhor visualização do código) <br>
+    <h3> Identação de Código</h3>
+    <!--<code>
+        num = int(input("Digite um número:"))
+        if num % 2 == 0:
+            print(f'O número {num} é PAR)
+        else:
+            print(f'O número {nu} é ÍMPAR)
+        print("Fim do programa")>
+    </code> -->
+    Se quiser colocar um código Python no site, o mesmo não irá ser exibido da forma que está <br>
+    escrito no
+    VSCODE. A tag CODE não organiza com IDENTAÇÃO.... para identar esse código, <br>
+    utilizar a TAG PRÉ, exemplo: <br>
+    <br> <strong> Código sem identação:</strong> <br>
+    <code>
+        num = int(input("Digite um número:"))
+        if num % 2 == 0:
+            print(f'O número {num} é PAR)
+        else:
+            print(f'O número {nu} é ÍMPAR)
+        print("Fim do programa")>
+    </code> <br>
+    <br> <strong> Código com identação: </strong> <br>
+    <pre>
+        <code>
+    num = int(input("Digite um número:"))
+    if num % 2 == 0:
+        print(f'O número {num} é PAR)
+    else:
+        print(f'O número {nu} é ÍMPAR)
+    print("Fim do programa")>
+        </code>
+    </pre> <!-- Considerara espaços, quebras de linhas e tabulções-->
+    </p>
+    <h3> Citações Simples</h3>
+    <p>Utilizar a tag Q, exemplo: <br>
+        Como diria o eterno Rodrigo 011: <q>Deus na frente sempre e marcha meus parceiros</q> </p>
+    <!--Com a tag Q, você da sentido a citação... diferente de apenas usar " " para alguma
+        outra frase aleatória-->
+    <h3> Citações Completas</h3>
+    <p>Utilizar a tag BLOCKQUOTE, exemplo: <br> Segundo Jeff Noble, no seu livro HTML para Leigos:
+    <blockquote cite="https://www.google.com/search?sca_esv=bf721e085700f33c&sca_upv=1&q=exemplo&udm
+        =2&fbs=AEQNm0AuaLfhdrtx2b9ODfK0pnmi046uB92frSWoVskpBryHTrdWqiVbaH6EqK0Fq9hkAkqRDuhGs
+        7UQnPtZiL0Bzcj78aaFR2vnR4DfQyahVzxKNV848i-6FCdSRVA3HcX_I47exC481PBvbM7jsTw0iQrl5SRWP
+        TL8yiWt3dCL13-uffgzTTk0LM5bUhxQ8L1DOUMhUOZNPEyn-eP_ddgZoKyXqBVN1Q&sa=X&ved=2ahUKEwiS
+        k8LB47-HAxVJGbkGHd7VDhsQtKgLegQIGRAB#vhid=zk0SgxjEtdpw0M&vssid=mosaic">
+        A diferença entre elementos e um block de texto é importante</blockquote> <br>
+    <!-- Essa identação já é automática -->
+    Por essa tag ser completa, dentro dela podemos criar um parametro (CITE) <br>
+    passando o link de onde essa referência foi retirada para ajudar nos <br>
+    mecanismos de buscas de google, e afins...
+    </p>
+    <h3> Abreviações</h3>
+    <p>Ao passar o mouse sobre alguma palavra, aparecerá uma caixinha explicando o signifficado da mesma. <br>
+        Usar a tag ABBR, exemplo: <br>
+        Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr
+            title="Cascading Style Sheets">CCS</abbr>!
+</body>
+
+</html>
